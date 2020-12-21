@@ -31,7 +31,7 @@ $(function () {
         focusOnSelect: true
     });
 
-    $('.travel--slider').slick({
+    $('.holder--slider').slick({
         infinite: true,
         fade: true,
         prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrow-left.svg" alt="">',
