@@ -39,7 +39,7 @@ $(function () {
         asNavFor: '.slider-dotshead',
 
     });
-    $('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
+    $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="img/Plus.svg" alt=""></div><div class="quantity-button quantity-down"><img src="img/Minus.svg" alt=""></div></div>').insertAfter('.quantity input');
     $('.quantity').each(function() {
       var spinner = $(this),
         input = spinner.find('input[type="number"]'),
@@ -71,4 +71,7 @@ $(function () {
       });
 
     });
+
+    let summ =  ;
+    $('.summ').html('$' + summ);
 });
