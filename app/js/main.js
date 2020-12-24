@@ -72,9 +72,9 @@ $(function () {
 
     });
 
-    $('.quantity-button').on('click', function(){
-      let summ = $('.nights').val() * $('.summ').data('nights') + ($('guests').val() - 1) * $('.summ').data('guests');
-      $('.summ').html('$' + summ);
+    $('.quantity-button').on("click", function () {
+      let summ = $('.nights').val() * $('.summ').data('nights') * $('.guests').val() ;
+      $('.summ').html(summ);
     });
 
     let summ = $('.nights').val() * $('.summ').data('nights') + ($('guests').val() - 1) * $('.summ').data('guests');
