@@ -61,3 +61,18 @@
         font-size: 65px;
     }
 }
+@media (max-width: 1340px){
+    .header-map{
+    svg{
+        width: 500px;
+        height: 250px;
+    }
+}
+.slider-arrows{
+    top: 20px;
+    right: 20px;
+}
+.slider-arrows-left{
+    right: 60px;
+}
+}
