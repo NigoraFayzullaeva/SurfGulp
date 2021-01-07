@@ -252,10 +252,12 @@
     }
 }
 .surf-box{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 750px;
+    &-wrapper{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     &-inner{
         min-height: 750px;
         background: rgba(#1c2121, .85);
@@ -309,6 +311,7 @@
     margin: 0 auto;
     .slick-list{
         min-height: 635px;
+        overflow: visible;
     }
     .slick-current{
         .slider-dots-content{
@@ -369,6 +372,7 @@
     height: 24px;
     background-color: $green;
     border-radius: 50%;
+    box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
 }
 .slider-dots-content{
     display: none;

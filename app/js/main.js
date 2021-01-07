@@ -13,6 +13,12 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         asNavFor: '.header-slider',
+        responsive: [
+          {
+            breakpoint: 961,
+            settings: "unslick"
+          },
+        ]
         
     });
 
@@ -33,7 +39,7 @@ $(function () {
     });
 
     $('.slider-map').slick({
-        slidesToShow: 8,
+        slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         asNavFor: '.surf-slider',
