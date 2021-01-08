@@ -47,6 +47,13 @@ $(function () {
               centerMode: true,
             }
           },
+          {
+            breakpoint: 426,
+            settings: {
+              slidesToShow: 1,
+              centerMode: false,
+            }
+          },
         ]
     });
 
