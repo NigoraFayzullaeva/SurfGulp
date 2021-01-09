@@ -342,6 +342,16 @@
             }
         }
     }
+    .quantity-button.quantity-up{
+        right: auto;
+        left: 25px;
+    }
+    .quantity-button.quantity-down{
+        right: auto;
+    }
+    .sleep .holder-slider-descr{
+        background-position: right 10px;
+    }
 }
 
 @media (max-width: 960px) {
@@ -428,6 +438,25 @@
     .slider-map .slick-current .slider-dots-content{
         width: 250px;
         padding: 28px 15px 0;
+    }
+    .holder-slider-info-title{
+        font-size: 28px;
+    }
+    .holder-slider-info-subtitle{
+        font-size: 16px;
+    }
+    .slider-item-info-title{
+        font-size: 44px;
+    }
+    .slider-item-info-text{
+        font-size: 26px;
+    }
+    .holder-slider-descr .descr-head .holder-star-list{
+        position: static;
+        margin-left: -15px;
+    }
+    .holder-slider-descr .descr-head.descr-head-sleep{
+        padding-right: 0;
     }
 }
 @media (max-width: 374px){
