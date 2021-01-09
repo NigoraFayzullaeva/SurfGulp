@@ -86,6 +86,12 @@
         left: 20px;
         bottom: 20px;
     }
+    .shop-slider-content{
+        padding-left: 40px;
+    }
+    .shop-slider-price{
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 1340px) {
@@ -163,6 +169,24 @@
 
     .slider-dots--8 {
         top: 397px;
+    }
+    .shop-slider-inner{
+        display: block;
+    }
+    .shop-slider-info{
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+    .shop-slider{
+        padding-left: 20px;
+    }
+    .surfboard-position-3 .surfboard-box-content{
+        left: 60px;
+    }
+    .surfboard-position-3 .surfboard-box-content::before{
+        width: 20px;
+        right: auto;
+        left: -32px;
     }
 }
 @media (max-width: 1150px){
@@ -359,6 +383,25 @@
         display: none;
     }
 }
+@media (max-width: 767px){
+    .surfboard-box-content{
+        padding-left: 0;
+        top: 0;
+        left: 0;
+        width: 270px;
+        &::before{
+            display: none;
+        }
+    }
+    .surfboard-position-1{
+        .surfboard-box-content{
+            left: -177px;
+        }
+    }
+    .shop-extras{
+        padding-left: 75px;
+    }
+}
 @media (max-width: 720px){
     .title{
         span{
@@ -378,6 +421,21 @@
     }
     .holder-slider-subtitle{
         padding: 100px 20px 0 0;
+    }
+}
+@media (max-width: 680px){
+    .shop-slider-content{
+        display: block;
+    }
+    .shop-extras{
+        padding-left: 0;
+        padding-top: 35px;
+    }
+    .surfboard-position-1{
+        left: 155px;
+    }
+    .footer{
+        padding: 100px 0 34px;
     }
 }
 @media (max-width: 640px){
@@ -432,6 +490,15 @@
     .holder{
         background-size: 120px;
     }
+    .shop-slider-content{
+        padding-left: 0;
+    }
+    .surfboard-position-2{
+        left: 3px;
+    }
+    .surfboard-position-1 .surfboard-box-content{
+        left: -146px;
+    }
 }
 @media (max-width: 425px){
     .slider-map .slider-dots-content,
@@ -465,5 +532,8 @@
         display: block;
         width: 200px;
         padding: 28px 10px 0;
+    }
+    .shop-extras-box{
+        margin-right: 30px;
     }
 }
