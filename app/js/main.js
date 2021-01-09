@@ -143,5 +143,6 @@ $(function () {
     $('.menu-btn').on('click', function(){
       $('.menu').toggleClass('active');
     });
+    new Window().init();
 });
 
