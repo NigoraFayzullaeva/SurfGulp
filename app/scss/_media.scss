@@ -165,7 +165,15 @@
         top: 397px;
     }
 }
-
+@media (max-width: 1150px){
+    .surf,
+    .holder{
+        padding: 70px 0 120px;
+    }
+    .holder-slider-descr{
+        padding: 160px 0 0 20px;
+    }
+}
 @media (max-width: 1102px) {
     .slider-map {
         background-image: none;
@@ -212,6 +220,7 @@
 }
 
 @media (max-width: 1040px) {
+    
     .header-arrows {
         display: none;
     }
@@ -262,12 +271,18 @@
         line-height: 18px;
         padding-left: 65px;
     }
+    .headline-right {
+        font-size: 16px;
+        line-height: 18px;
+        padding-right: 65px;
+    }
 
     .slider-item-info-subtitle {
         margin-bottom: 5px;
     }
 
-    .headline-left::before {
+    .headline-left::before,
+    .headline-right::before {
         width: 50px;
     }
 
@@ -299,6 +314,34 @@
     .surf-subtitle{
         padding-right: 20px;
     }
+    .holder-slider-info{
+        display: block;
+    }
+    .holder-slider-info-subtitle{
+        position: static;
+        transform: rotate(0deg);
+        height: auto;
+        width: auto;
+        text-align: left;
+    }
+    .holder-slider-info-item{
+        min-height: auto;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .holder-slider-info-title{
+        padding-left: 0;
+    }
+    .holder-slider-descr{
+        background-position: right -119px;
+    }
+    .holder{
+        .title{
+            span{
+                padding-bottom: 0;
+            }
+        }
+    }
 }
 
 @media (max-width: 960px) {
@@ -320,9 +363,19 @@
     .surf-slider{
         padding-top: 65px;
     }
-    .surf,
-    .holder{
-        padding: 70px 0 120px;
+    .holder-slider-head{
+        min-height: 720px;
+    }
+    .holder-slider-subtitle{
+        padding: 100px 20px 0 0;
+    }
+}
+@media (max-width: 640px){
+    .holder-slider-descr{
+        background-image: none !important;
+    }
+    .btn{
+        font-size: 30px;
     }
 }
 @media (max-width: 520px){
@@ -332,6 +385,9 @@
     .subtitle-head{
         font-size: 32px;
         padding-right: 0;
+    }
+    .descr-head{
+        font-size: 32px;
     }
 }
 @media (max-width: 460px) {
@@ -362,6 +418,9 @@
 
     .header-title {
         display: none;
+    }
+    .holder{
+        background-size: 120px;
     }
 }
 @media (max-width: 425px){
