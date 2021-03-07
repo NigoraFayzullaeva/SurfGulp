@@ -2,4 +2,4 @@
 Gulp Project about Surfer Beach
 <br>
 - npm install
-- gulp
+- run 'gulp' command
